@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextToSpeechOnSystemSpeechSynthesis", "TextToSpeechOnSystemSpeechSynthesis\TextToSpeechOnSystemSpeechSynthesis.csproj", "{056684FE-1EC8-4CDF-8849-99F0EECC4FB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechOnSpeechService", "TextToSpeechOnSpeechService\TextToSpeechOnSpeechService.csproj", "{69E8DC19-6BD3-451A-970E-FE3395319A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextToSpeechOnSpeechService", "TextToSpeechOnSpeechService\TextToSpeechOnSpeechService.csproj", "{69E8DC19-6BD3-451A-970E-FE3395319A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechOnHardcodedSounds", "TextToSpeechOnHardcodedSounds\TextToSpeechOnHardcodedSounds.csproj", "{4DB4DB76-6F6D-46D7-ADE3-D347A85E184E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{69E8DC19-6BD3-451A-970E-FE3395319A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E8DC19-6BD3-451A-970E-FE3395319A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E8DC19-6BD3-451A-970E-FE3395319A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB4DB76-6F6D-46D7-ADE3-D347A85E184E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB4DB76-6F6D-46D7-ADE3-D347A85E184E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB4DB76-6F6D-46D7-ADE3-D347A85E184E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB4DB76-6F6D-46D7-ADE3-D347A85E184E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

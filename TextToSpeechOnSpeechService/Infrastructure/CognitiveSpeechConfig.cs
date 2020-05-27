@@ -21,6 +21,6 @@ namespace TextToSpeechOnSpeechService.Infrastructure
 
         public string BackgroundAudioSource { get; set; }
 
-        public string OutputFormat { get; set; }
+        public string OutputFilename { get; set; }
     }
 }

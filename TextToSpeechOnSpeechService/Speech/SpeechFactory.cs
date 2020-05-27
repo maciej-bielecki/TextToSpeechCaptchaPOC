@@ -62,9 +62,9 @@ namespace TextToSpeechOnSpeechService.Speech
             var config = SpeechConfig.FromSubscription(speechConfig.SubscriptionKey, speechConfig.Region);
             config.SetSpeechSynthesisOutputFormat(SpeechSynthesisOutputFormat.Riff16Khz16BitMonoPcm);
 
-            if (await SynthesisToWaveFileAsync(speechConfig.OutputFormat, ssmlFactory.CreateSsmlForText(text), config))
+            if (await SynthesisToWaveFileAsync(speechConfig.OutputFilename, ssmlFactory.CreateSsmlForText(text), config))
             {
-                var fileStream = new FileStream(speechConfig.OutputFormat, FileMode.Open, FileAccess.Read);
+                var fileStream = new FileStream(speechConfig.OutputFilename, FileMode.Open, FileAccess.Read);
                 return fileStream;
             }
             else
