@@ -31,6 +31,8 @@ namespace TextToSpeechOnSpeechService
 
             services.AddSingleton<ISpeechFactory, SpeechFactory>();
             services.AddSingleton<ISsmlFactory, SsmlFactory>();
+            services.AddSingleton<ICaptchaPictureFactory, CaptchaPictureFactory>();
+            //services.AddSingleton<ICaptchaPictureFactory, SixLaborsCaptchaPictureFactory>();
 
             services.AddSwaggerGen(c =>
             {
